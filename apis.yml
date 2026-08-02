@@ -1,7 +1,13 @@
 aid: ushur
 name: Ushur
-description: Ushur is a company surfaced as a portfolio company of 8vc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Ushur is an agentic AI platform for customer experience automation (CXA) in
+  regulated industries, including healthcare, insurance, and financial
+  services. Enterprises use Ushur Studio, AI Agents, the Invisible App,
+  intelligent document automation, and the platform's REST APIs and prebuilt
+  integrations to automate end-to-end member, patient, and policyholder
+  journeys across SMS, email, voice, and web channels, with HIPAA, HITRUST,
+  SOC 2, and PCI DSS compliance built in.
 url: https://raw.githubusercontent.com/api-evangelist/ushur/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +15,89 @@ x-backed-by:
 - 8vc
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-apis: []
+- Artificial Intelligence
+- Customer Experience
+- Automation
+- Healthcare
+- Insurance
+- Financial Services
+- Agents
+image: https://cdn.prod.website-files.com/66b170e39e75a071ecd6a1e1/69319b90541bfce5aeeadec3_Home%20OG.png
+apis:
+- name: Ushur Platform API
+  description: REST API for the Ushur customer experience automation platform.
+    Documented operations (per the official UshurNodeSDK) include logging in to a
+    tenant instance, initiating campaign engagements with end users, retrieving
+    detailed and tagged responses for a request, adding, querying, and deleting
+    enterprise data, and authenticating end-user phone numbers with OTP
+    confirmation. Full API documentation sits behind a login at docs.ushur.com.
+  humanURL: https://ushur.ai/api
+  baseURL: https://api.ushur.me
+  tags:
+  - Customer Experience
+  - Automation
+  - Engagement
+  - Campaigns
+  properties:
+  - type: Documentation
+    url: https://docs.ushur.com
+  - type: SDK
+    url: https://github.com/UshurInc/UshurNodeSDK
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ushur-domain-security.yml
 - type: Website
-  url: https://ushur.com
+  url: https://ushur.ai
+- type: Blog
+  url: https://ushur.ai/blog
+- type: Documentation
+  url: https://docs.ushur.com
+- type: Support
+  url: https://ushur.ai/contact-us
+- type: GitHubOrganization
+  url: https://github.com/UshurInc
+- type: PrivacyPolicy
+  url: https://ushur.ai/legal
+- type: TrustCenter
+  url: security/ushur-trust-center.yml
+- type: Compliance
+  url: https://ushur.ai/security-and-compliance
+- type: Partners
+  url: https://ushur.ai/partners
+- type: Packages
+  url: packages/ushur-packages.yml
+- type: SDKs
+  url: packages/ushur-packages.yml
+- type: LLMsTxt
+  url: llms/ushur-llms.txt
+- type: Conformance
+  url: conformance/ushur-conformance.yml
+- type: Authentication
+  url: authentication/ushur-authentication.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 7
+  pass: local-v1

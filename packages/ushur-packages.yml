@@ -1,0 +1,47 @@
+generated: '2026-07-21'
+method: searched
+source: https://registry.npmjs.org + https://github.com/UshurInc
+packages:
+- language: javascript
+  registry: npm
+  name: ushursdk
+  url: https://www.npmjs.com/package/ushursdk
+  install: npm install ushursdk
+  official: true
+  repository: https://github.com/UshurInc/UshurNodeSDK
+  latest: 1.1.0
+  last_published: '2022-05-22'
+  notes: Node.js client for the Ushur API, sourced from the official UshurInc
+    GitHub repository (UshurNodeSDK).
+- language: javascript
+  registry: npm
+  name: ushur
+  url: https://www.npmjs.com/package/ushur
+  install: npm install ushur
+  official: false
+  latest: 1.0.5
+  last_published: '2022-06-28'
+  notes: Node.js client for the Ushur API referenced by the UshurNodeSDK README
+    install instructions, but published to npm from a personal repository, not
+    the UshurInc org, so not marked first-party.
+- language: ios
+  registry: github
+  name: Ushur-SDK-iOS-Samples
+  url: https://github.com/UshurInc/Ushur-SDK-iOS-Samples
+  official: true
+  notes: Sample code for the Ushur iOS SDK, published by the UshurInc org. The
+    iOS SDK binary itself is not distributed through a public package registry.
+- language: servicenow
+  registry: github
+  name: UshurServiceNowSDK
+  url: https://github.com/UshurInc/UshurServiceNowSDK
+  official: true
+  notes: ServiceNow update sets for building Ushur-powered service bots on a
+    ServiceNow instance, published by the UshurInc org.
+registries_probed:
+- registry: npm
+  result: ushursdk (first-party), ushur (community-published client)
+- registry: pypi
+  result: none (https://pypi.org/pypi/ushur/json returned 404)
+- registry: cocoapods
+  result: none (no pod named Ushur)

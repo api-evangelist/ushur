@@ -1,0 +1,111 @@
+# Ushur
+
+> Ushur is an Agentic AI Platform for Customer Experience Automation in regulated 
+> industries — healthcare, insurance, and financial services. Ushur enables enterprises 
+> to build, deploy, and govern AI agent experiences that automate end-to-end customer 
+> journeys with compliance, security, and auditability built in.
+
+## Core Pages
+- [Home](https://ushur.ai): Main landing page
+- [Platform](https://ushur.ai/platform): Overview of the Ushur Agentic CX Platform
+- [Solutions](https://ushur.ai/solutions): Agentic CX solutions for regulated industries
+- [Customer Stories](https://ushur.ai/customers): Customer testimonials and success stories
+- [Request a Demo](https://ushur.ai/request-demo): Demo signup
+- [Contact Us](https://ushur.ai/contact-us): Support and inquiries
+
+## Platform & Capabilities
+- [Ushur Agentic Platform](https://ushur.ai/platform): Core agentic AI platform for regulated industries
+- [Ushur Studio](https://ushur.ai/ushur-studio): Workspace for building and managing AI agent experiences
+- [AI Agents](https://ushur.ai/ai-agents): Autonomous AI agents for customer servicing workflows
+- [Invisible App](https://ushur.ai/invisible-app): No-download, app-like digital experiences via SMS or email
+- [Agentic Experience Framework](https://ushur.ai/agentic-experience-framework): AI-native design model for end-to-end customer journeys
+- [Voice Guided Experience](https://ushur.ai/voice-guided-experience): AI-powered voice and visual multimodal engagement
+- [Voice](https://ushur.ai/voice): AI-powered two-way voice interactions and call automation
+- [Web](https://ushur.ai/web): Ushur-powered experiences embedded in web environments
+- [SMS & Messaging](https://ushur.ai/sms-and-chat): Channel orchestration for mobile messaging
+- [Two-way Texting](https://ushur.ai/two-way-texting): Real-time SMS interactions for service and engagement
+- [Email Automation](https://ushur.ai/smartmail): AI-powered email classification and automation
+- [Intelligent Document Automation](https://ushur.ai/intelligent-document-automation): AI extraction from structured and unstructured documents
+- [APIs and Integration](https://ushur.ai/api): REST APIs for integration with enterprise systems
+- [Insights & Analytics](https://ushur.ai/insights): Engagement performance dashboards and experience ROI
+- [Security & Compliance](https://ushur.ai/security-and-compliance): HIPAA, SOC2, and enterprise governance overview
+
+## Industry Solutions
+- [Insurance](https://ushur.ai/insurance): Insurance industry overview
+- [Healthcare](https://ushur.ai/healthcare): Healthcare industry overview
+- [Financial Services](https://ushur.ai/finserv): Financial services overview
+- [Commercial Health Plans](https://ushur.ai/commercial-health-plans): Solutions for private payer organisations
+- [Medicare](https://ushur.ai/medicare): Star Ratings, CAHPS, and Medicare member engagement
+- [Medicaid](https://ushur.ai/medicaid): Redetermination, eligibility, and Medicaid member engagement
+- [Group Benefits](https://ushur.ai/group-benefits): Group benefits servicing and member engagement
+- [Biopharma & Life Sciences](https://ushur.ai/biopharma-and-life-sciences): HCP engagement and patient services
+- [Healthcare Providers](https://ushur.ai/healthcare-providers): Administrative automation for providers
+- [PBM & Pharmacy](https://ushur.ai/pbm-and-pharmacy): Pharmacy workflow automation and medication adherence
+- [Mortgage](https://ushur.ai/mortgage): Mortgage servicing and customer communication automation
+- [Property & Casualty](https://ushur.ai/property-and-casualty): P&C insurance value chain solutions
+- [LA&H Individual](https://ushur.ai/lah-individual): Life, accident, and health for individuals
+- [LA&H Group](https://ushur.ai/lah-group): Group benefits and employer-based automation
+- [Local Health Plans of California](https://ushur.ai/ushur-for-lhpcs): AI automation for LHPCs
+
+## Use Case Solutions
+- [Contact Center & Call Deflection](https://ushur.ai/contact-center): Reduce call volume with AI-powered digital deflection
+- [IVR / Call Deflection](https://ushur.ai/call-deflection): Moves IVR interactions to digital self-service channels
+- [Member Service](https://ushur.ai/member-service): AI Agent for always-on healthcare member support
+- [Patient Service](https://ushur.ai/patient-service): AI Agent for patient servicing and communication
+- [Policyholder Service](https://ushur.ai/policyholder-service): AI Agent for policyholder self-service
+- [Client Service](https://ushur.ai/client-service): AI Agent for client servicing workflows
+- [Provider Service](https://ushur.ai/provider-service): AI Agent for provider-facing service automation
+- [FNOL Automation](https://ushur.ai/fnol): First notice of loss with guided data collection
+- [Medicaid Redetermination](https://ushur.ai/medicaid-redetermination): Member outreach for Medicaid renewal
+- [Medicaid Quality Engagement](https://ushur.ai/medicaid-quality-engagement-activation): HEDIS quality scores via automated member outreach
+- [Medicare Quality Engagement](https://ushur.ai/medicare-quality-engagement): CAHPS, HRA, and Star-measure program completion
+- [Quoting & RFP Intake](https://ushur.ai/quoting-rfp-intake-automation): Automated RFP and quote intake
+- [Absence Management](https://ushur.ai/absence-engagement): STD/LTD claims intake and communication
+- [Medication Adherence](https://ushur.ai/medication-adherence): Automated refill and medication tracking outreach
+- [Open Enrollment](https://ushur.ai/open-enrollment): Plan selection and enrollment communications
+- [Pending Claims](https://ushur.ai/pending-claims): Automates missing data collection to resolve claims faster
+- [Maternal & Newborn Health](https://ushur.ai/maternity): Pregnancy and postpartum member engagement
+- [Chronic Conditions](https://ushur.ai/chronic-conditions): Member engagement for condition management
+- [Provider Order Intake](https://ushur.ai/provider-order-intake-automation): Digitises and streamlines provider order submission
+- [KYC & Paperless Onboarding](https://ushur.ai/kyc-compliance-paperless-onboarding): Digital onboarding and identity verification automation
+- [Onboarding for Group & Worksite Benefits](https://ushur.ai/onboarding-for-group-and-worksite-benefits): Benefits communication and enrollment journeys
+- [Clinical Trials](https://ushur.ai/clinical-trials): Participant engagement and trial onboarding
+- [Smart Survey](https://ushur.ai/smart-survey): Automated mobile-friendly surveys with branching logic
+- [Sales Enablement](https://ushur.ai/sales-enablement): Self-service tools across digital customer channels
+- [Email Triage](https://ushur.ai/triage-customer-emails): Inbound email classification and intelligent routing
+- [Severe Weather Alerts](https://ushur.ai/severe-weather-alerts): Proactive notifications during catastrophic events
+- [Service Desk](https://ushur.ai/service-desk): AI-powered internal IT and HR helpdesk automation
+- [Payments](https://ushur.ai/payments): Digital automation of premium collection and payment resolution
+- [Customer Experience Automation](https://ushur.ai/cxa): Ushur's foundational CXA platform approach
+
+## Partners & Integrations
+- [Partners](https://ushur.ai/partners): Integration and go-to-market partnerships
+- [AWS Marketplace](https://ushur.ai/aws-marketplace): Ushur on AWS Marketplace
+- [Amazon Connect](https://ushur.ai/amazon-connect): Ushur integration with Amazon Connect
+- [Insightin Health](https://ushur.ai/insightin-health): Ushur and Insightin Health partnership
+
+## Analyst Reports
+- [Analyst Coverage](https://ushur.ai/analysts): Gartner, Forrester, and industry recognition
+- [Gartner Emerging Tech Impact Radar](https://ushur.ai/gartner-emerging-tech-impact-radar): Ushur in Gartner's high-impact emerging tech radar
+- [2024 Gartner Hype Cycle for Healthcare Payers](https://ushur.ai/2024-gartner-hype-cycle-for-healthcare-payers): Gartner insights on AI and automation in healthcare
+
+## Customer Proof
+- [Customer Stories](https://ushur.ai/customers): Success stories across healthcare, insurance, and financial services
+- [Unum Case Study](https://ushur.ai/unum-transformation-story): How Unum automated short-term disability claims with Ushur
+- [Ushur by the Numbers](https://ushur.ai/ushur-by-the-numbers): Key performance metrics and customer outcomes
+
+## Company
+- [About Us](https://ushur.ai/about-us): Company mission, leadership, and story
+- [Newsroom](https://ushur.ai/newsroom): Press releases and media coverage
+- [Events](https://ushur.ai/events): Webinars, conferences, and trade shows
+- [Awards](https://ushur.ai/awards): Industry recognition
+- [Careers](https://ushur.ai/careers): Job opportunities
+- [Ushur University](https://ushur.ai/ushur-university): Training and certification programme
+
+## Blog & Resources
+- [Blog](https://ushur.ai/blog): Insights on agentic AI and customer experience automation
+- [Resources](https://ushur.ai/resources): White papers, solution guides, and demos
+- [CXA Glossary](https://ushur.ai/cxa-glossary): Key automation and CX terminology
+
+## Legal
+- [Legal](https://ushur.ai/legal)

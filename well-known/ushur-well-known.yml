@@ -1,0 +1,59 @@
+generated: '2026-07-21'
+method: searched
+notes: Probe of the /.well-known/ discovery surface on every public Ushur host
+  found in apis.yml and the marketing site. No well-known documents are
+  published; absence recorded per host. The only discovery document Ushur
+  publishes is /llms.txt on ushur.ai (captured at llms/ushur-llms.txt).
+hosts:
+- host: https://ushur.ai
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 200
+    file: ../llms/ushur-llms.txt
+- host: https://ushur.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://docs.ushur.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 302
+    notes: Redirects to the docs portal login; entire docs host is gated.
+  - path: /.well-known/openid-configuration
+    status: 302
+  - path: /.well-known/oauth-authorization-server
+    status: 302
+  - path: /.well-known/api-catalog
+    status: 302
+  - path: /.well-known/ai-plugin.json
+    status: 302
+- host: https://api.ushur.me
+  documents:
+  - path: /.well-known/security.txt
+    status: 500
+  - path: /.well-known/openid-configuration
+    status: 500
+  - path: /.well-known/oauth-authorization-server
+    status: 500
+  - path: /.well-known/api-catalog
+    status: 500
+  - path: /.well-known/ai-plugin.json
+    status: 500

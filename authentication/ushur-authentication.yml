@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/UshurInc/UshurNodeSDK
+docs: https://docs.ushur.com
+notes: Ushur publishes no public OpenAPI, so this profile is taken from the
+  official UshurNodeSDK (UshurInc GitHub org) README and examples. The full
+  API documentation at docs.ushur.com sits behind a customer login.
+summary:
+  types:
+  - session-login
+  - otp
+  notes: Platform clients authenticate by logging in to their tenant host with
+    account email and password; the session established by login is then used
+    for subsequent API calls (initEngagement, getResponses, enterprise data
+    operations). A separate end-user phone-number authentication flow issues
+    an OTP (authentication request returning a phAuthTransactionId, followed
+    by a confirmation call with the received auth number).
+schemes:
+- name: platform-login
+  type: session
+  description: Email + password login against the tenant API host (for example
+    https://apidev.ushur.me/ in SDK examples; production tenants use their own
+    *.ushur.me host). Emits loginSuccess/loginFailure; all subsequent SDK calls
+    reuse the authenticated session.
+  sources:
+  - https://github.com/UshurInc/UshurNodeSDK#usage
+- name: end-user-phone-otp
+  type: otp
+  description: Two-step end-user verification. ushur.authentication({phoneNumber})
+    triggers an OTP and returns a phAuthTransactionId; ushur.confirmation
+    ({phoneNumber, authNumber, phAuthTransactionId}) completes verification.
+  sources:
+  - https://github.com/UshurInc/UshurNodeSDK#usage

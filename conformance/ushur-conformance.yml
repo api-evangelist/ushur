@@ -1,0 +1,53 @@
+generated: '2026-07-21'
+method: searched
+source: https://ushur.ai/security-and-compliance
+notes: Compliance and standards posture published on Ushur's Security &
+  Compliance page. Ushur publishes no public OpenAPI, so no API-level protocol
+  conformance (OAuth2/OIDC, RFC 9457, JSON:API, etc.) could be derived.
+standards:
+- id: hipaa
+  conforms: true
+  evidence: '"HIPAA Compliant" listed under Compliance on the Security & Compliance page'
+- id: hitrust-r2
+  conforms: true
+  evidence: '"HITRUST r2 Certified" listed on the Security & Compliance page,
+    with a "View the HITRUST Certification" press-release link'
+- id: soc2
+  conforms: true
+  evidence: '"AICPA SOC 2" listed on the Security & Compliance page'
+- id: pci-dss
+  conforms: true
+  evidence: '"PCI DSS" listed on the Security & Compliance page'
+- id: gdpr
+  conforms: true
+  evidence: '"GDPR Compliant" listed on the Security & Compliance page'
+- id: ccpa
+  conforms: true
+  evidence: '"CCPA Compliant" listed on the Security & Compliance page'
+- id: pipeda
+  conforms: true
+  evidence: '"PIPEDA Compliant" listed on the Security & Compliance page'
+- id: tcpa
+  conforms: true
+  evidence: '"TCPA Compliant" listed on the Security & Compliance page'
+- id: iso-27001
+  conforms: true
+  evidence: ISO 27001 certification badge (alt="ISO 27001") displayed on the
+    Security & Compliance page
+- id: fsqs
+  conforms: true
+  evidence: '"FSQS Registered" listed on the Security & Compliance page'
+- id: section-508
+  conforms: true
+  evidence: '"Section 508 Compliant" listed on the Security & Compliance page'
+- id: wcag
+  conforms: true
+  evidence: '"WCAG" listed under compliance standards on the Security & Compliance page'
+- id: cis-benchmarks
+  conforms: true
+  evidence: '"Commitment to comply with CIS and SOC2 standards" and "aligning
+    with frameworks such as CIS, and OWASP" on the Security & Compliance page'
+- id: tls
+  conforms: true
+  evidence: TLS 1.2 with AES-256 encryption of data in flight and at rest,
+    per the Data Management section of the Security & Compliance page
